@@ -1,0 +1,8 @@
+/* if browser doesnt support one font then it will take next one */
+.font-style{
+    color: green;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+}

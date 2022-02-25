@@ -1,0 +1,17 @@
+h1{
+    background-color: blue;
+    margin: auto;
+    /* inline element take space sufficient place not full space  */
+    display: inline;
+    border: red solid;
+    max-width: 250px;
+}
+h2{
+    background-color: green;
+}
+.el{
+    background-color:pink;
+    margin: auto;
+    border: red solid;
+    width: 250px;
+}

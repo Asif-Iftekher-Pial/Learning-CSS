@@ -1,0 +1,38 @@
+/* universal selector */
+*{
+    background-color: aqua;
+}
+/* grouping selection */
+.p-classStyle,.another{
+    color: white;
+}
+/*  child selector */
+div > p{
+    font-size: 30px;
+    background-color:yellow;
+}
+/* adjacen selector : will select immidiat p after div */
+div + p{
+    background-color:pink;
+    font-size:30px;
+}
+/* general selector: will select all the p after div */
+div ~ p{
+    background-color:violet;
+    font-size:30px;
+}
+
+/* selecting tag */
+h1{
+    color: blueviolet;
+}
+/* selecting class */
+.p-classStyle{
+    font-size: 40px;
+    background-color: blue;
+}
+
+.another{
+    background-color: brown;
+    font-size: 50px;
+}

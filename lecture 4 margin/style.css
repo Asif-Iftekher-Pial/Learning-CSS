@@ -1,0 +1,15 @@
+.firstHeader{
+    width: 650px;
+    background-color: green;
+    font-size: 50px;
+    margin: 30px;
+    /* margin: toppx rightpx bottompx leftpx */
+}
+.secondheader{
+    border: 10px red solid;
+    width: 200px;
+    background-color: yellow;
+    
+    padding: 50px;
+    text-align: center;
+}
