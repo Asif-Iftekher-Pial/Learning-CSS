@@ -1,0 +1,16 @@
+.sec1{
+    background-color:red;
+    float: right;
+}
+.sec2{
+    background-color:green;
+    float: left;
+}
+.sec3{
+    background-color:yellow;
+
+}
+/* taking the third div below by adding extra div */
+.clear-div{
+    clear: both;
+}
