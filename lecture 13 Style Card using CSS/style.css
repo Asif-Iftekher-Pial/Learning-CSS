@@ -1,0 +1,37 @@
+.card-container{
+    background-color:aqua;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    width: 400px;
+    margin: 30px;
+    padding:10px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px black;
+}
+.img-style{
+    width:100%;
+
+}
+
+.card-body{
+    color:white;
+    background-color:brown;
+    padding:15px;
+    font-size: 30px;
+}
+.card-title-text{
+    color:greenyellow;
+    text-align: center;
+}
+.card-description{
+    text-align: justify;
+    line-height: 1.5;
+
+}
+.card:hover{
+    box-shadow: 10px 10px 10px green;
+}
